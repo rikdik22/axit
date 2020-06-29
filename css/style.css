@@ -601,10 +601,12 @@ a.active{
 }
 .effect__body {}
 .effect__title {
-  margin: 0px 0px 52px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .subtitle {}
-
+  .effect__line{
+  margin: 0px auto 50px auto;
+}
 .line__orange{
   border-bottom: 2px solid #ff8b38;
 }
@@ -639,6 +641,7 @@ a.active{
 @media (max-width: 680px){
   .tabs {
   padding: 50px 0px 50px 0px;
+  margin: 0px 0px 50px 0px;
 }
   .effect__row{
     display: block;
@@ -677,6 +680,7 @@ a.active{
     margin: 0px 0px 30px 0px;
   }
   .effect__btn {
+    text-align: center;
     margin: 0px 0px 30px 0px;
   }
   .tabs__image {
@@ -895,7 +899,9 @@ a.active{
   text-align: left;
 }
 
-
+.standart__line{
+  margin-left: 0;
+}
 
 .standart__text {
 }
@@ -978,6 +984,9 @@ a.active{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.standart__line{
+  margin:0 auto 15px auto;
 }
 }
 
@@ -1085,8 +1094,7 @@ a.active{
 }
 
 .pricing__line {
-  margin: 0 auto;
-  margin: 0px 0px 30px 0px;
+  margin: 0px auto 30px auto;
 }
 
 .pricing__text {
